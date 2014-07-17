@@ -67,25 +67,22 @@ public class Calculator {
 	}
 	
 	public static int sum(int n1, int n2) {
-		
-		int sum = n1 + n2;
 		// Return the sum of n1 and n2
-		return sum;
+		return n1 + n2;
 	}
 	
 	public static int subtract(int n1, int n2) {
-		int sub = n1 - n2;
 		// Return the subtraction of n1 and n2
-		return sub;
+		return n1 - n2;
 	}
 	
 	public static int multiply(int n1, int n2){
-		int mul = n1 * n2;
-		return mul;
+		// Return the multiplication of n1 and n2
+		return n1 * n2;
 	}
 	
 	public static int divide(int n1, int n2) {
-		int div = n1 / n2;
-		return div;
+		// Return the division of n1 and n2
+		return n1 / n2;
 	}
 }
